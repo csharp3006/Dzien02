@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_PetlaFor", "01_PetlaFor\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_StrukturyDanych", "02_StrukturyDanych\02_StrukturyDanych.csproj", "{9BE231C5-F200-4459-82A5-276AEA48ABDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Metody", "03_Metody\03_Metody.csproj", "{C06278C0-5FA8-4A8F-9EFE-F47808C7B32C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9BE231C5-F200-4459-82A5-276AEA48ABDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BE231C5-F200-4459-82A5-276AEA48ABDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BE231C5-F200-4459-82A5-276AEA48ABDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C06278C0-5FA8-4A8F-9EFE-F47808C7B32C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06278C0-5FA8-4A8F-9EFE-F47808C7B32C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06278C0-5FA8-4A8F-9EFE-F47808C7B32C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06278C0-5FA8-4A8F-9EFE-F47808C7B32C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
