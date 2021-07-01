@@ -20,7 +20,25 @@ namespace Metody
             FindMaxOut(5, 3, out result);
             Console.WriteLine("Co jest wieksze, 5 czy 3: {0}", result);
 
+            PrintEmpData("Jan", "Kowalski");
+            PrintEmpData("Jan", "Kowalski", 45);
+            PrintEmpData("Jan", "Kowalski", 45, 9999);
+            PrintEmpData("Jan", "Kowalski", salary: 12345);
+            PrintEmpData("Jan", "Kowalski", salary: 12345, age: 55);
+            PrintEmpData(salary: 12345, age: 55);
+
             Console.ReadKey();
+        }
+
+        static void PrintEmpData(string fname="XXX", string lname="YYY", int age=0, double salary=0.0)
+        {
+            if (age > 0)
+            {
+                Console.WriteLine("{0} {1}, wiek={2}, zarobki={3}", fname, lname, age, salary);
+            } else
+            {
+                Console.WriteLine("{0} {1}, zarobki={2}", fname, lname, salary);
+            }
         }
 
         /// <summary>
